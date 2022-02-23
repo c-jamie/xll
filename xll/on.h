@@ -1,8 +1,8 @@
 // on.h - xlcOnXXX functions
 // Copyright (c) KALX, LLC. All rights reserved. No warranty is made.
 #pragma once
-#include "auto.h"
-#include "excel.h"
+#include "xll/auto.h"
+#include "xll/excel.h"
 
 // For use with On<Key>
 #define ON_SHIFT       "+"

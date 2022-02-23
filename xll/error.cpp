@@ -1,9 +1,9 @@
 #pragma warning(disable: 4996)
 #include <stdexcept>
-#include "xll.h"
-#include "registry.h"
-#include "exports.h"
-#include "error.h"
+#include "xll/xll.h"
+#include "xll/registry.h"
+#include "xll/exports.h"
+#include "xll/error.h"
 
 using namespace xll;
 
@@ -16,9 +16,7 @@ public:
 		: key(HKEY_CURRENT_USER, TEXT("Software\\KALX\\xll")), value(0x7)
 	{
 		try {
-			value = key[TEXT("xll_alert_level")];
-		}
-		catch (...) {
+			value = key[TEXT("xll_alert_level")]; } catch (...) {
 			; // value gets set to default
 		}
 	}

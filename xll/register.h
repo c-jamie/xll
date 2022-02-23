@@ -1,8 +1,8 @@
 // register.h - Register an add-in
 #pragma once
-#include "shlwapi.h"
-#include "splitpath.h"
-#include "args.h"
+#include "xll/splitpath.h"
+#include "xll/args.h"
+#include <Shlwapi.h>
 
 // HelpTopic url base
 extern const char* XLL_URL;

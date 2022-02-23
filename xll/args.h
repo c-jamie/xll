@@ -5,7 +5,7 @@
 #include <map>
 #include <set>
 #include <vector>
-#include "excel.h"
+#include "xll/excel.h"
 
 // allows add-in argument types
 #define XLL_ARG_TYPES(a,b,c,d) b,c,

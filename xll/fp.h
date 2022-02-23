@@ -1,6 +1,6 @@
 // fp.h - Two-dimensional array of doubles
 #pragma once
-#include "traits.h"
+#include "xll/traits.h"
 
 namespace xll {
 

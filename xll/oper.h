@@ -6,9 +6,9 @@
 #include <iostream>
 #include <utility>
 #include "utf8.h"
-#include "xloper.h"
-#include "sref.h"
-#include "error.h"
+#include "xll/xloper.h"
+#include "xll/sref.h"
+#include "xll/error.h"
 
 #pragma warning(disable: 4996)
 

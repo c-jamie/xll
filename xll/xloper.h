@@ -3,8 +3,8 @@
 #pragma once
 #include <compare>
 #include <concepts>
-#include "traits.h"
-#include "sref.h"
+#include "xll/traits.h"
+#include "xll/sref.h"
 
 namespace xll {
 
@@ -231,7 +231,7 @@ namespace xll {
 
 	XLL_ERR(X)
 #undef X
-}
+} // namespace xll
 
 template<typename X> requires std::is_same_v<XLOPER, X> || std::is_same_v<XLOPER12, X>
 inline auto operator<=>(const X& x, const X& y)
@@ -319,9 +319,9 @@ inline auto operator<=>(const X& x, const X& y)
 
 XLOPER_CMP(==)
 XLOPER_CMP(!=)
-XLOPER_CMP(< )
+XLOPER_CMP(<)
 XLOPER_CMP(<=)
-XLOPER_CMP(> )
+XLOPER_CMP(>)
 XLOPER_CMP(>=)
 
 #undef XLOPER_CMP

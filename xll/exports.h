@@ -1,7 +1,7 @@
 // exports.h - Functions to export to xlls
 // Copyright (c) KALX, LLC. All rights reserved. No warranty made.
 #pragma once
-#include "defines.h"
+#include "xll/defines.h"
 
 // Don't export for xll.t project
 #if !defined(_CONSOLE)

@@ -6,9 +6,9 @@
 #include <cstring>
 #include <iostream>
 #include <limits>
-#include "excel.h"
-#include "utf8.h"
-#include "fms_view.h"
+#include "xll/excel.h"
+#include "xll/utf8.h"
+#include "xll/fms_view.h"
 
 namespace xll {
 

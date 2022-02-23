@@ -1,8 +1,8 @@
 // sref.h - simple reference
 #pragma once
 #include <compare>
-#include "traits.h"
-#include "concepts.h"
+#include "xll/traits.h"
+#include "xll/concepts.h"
 
 //!!! should be a partial order
 template<class X> requires std::is_same_v<XLREF, X> || std::is_same_v<XLREF12,X>

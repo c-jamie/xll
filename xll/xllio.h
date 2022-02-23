@@ -1,5 +1,5 @@
-#include "oper.h"
-#include "excel.h"
+#include "xll/oper.h"
+#include "xll/excel.h"
 
 namespace xll {
 
